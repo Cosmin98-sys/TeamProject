@@ -1,0 +1,1 @@
+Fisierul ce va fi folosit pentru README
