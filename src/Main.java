@@ -17,5 +17,7 @@ public class Main {
         }
 
         System.out.println(allCost);
+        File fisier = new File("ProiectIP", "D:\ANUL IV\GIT_TEMA1\TeamProject", 250);
+        fisier.showFile(this);
     }
 }
