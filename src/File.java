@@ -12,4 +12,16 @@ public class File {
     public void showFile(File f){
         System.out.println("Fisierul %s se afla in locatia %d si are dimensiunea de %d kB", f.name, f.location, f.size);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public int getSize() {
+        return size;
+    }
 }
