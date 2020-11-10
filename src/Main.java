@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("Hello world!");
+
+        File fisier = new File("ProiectIP", "D:\ANUL IV\GIT_TEMA1\TeamProject", 250);
+        fisier.showFile(this);
     }
 }
